@@ -1,13 +1,15 @@
 
 import './App.css'
+import DevJob from './components/navbar'
+
 
 function App() {
 
   return (
-    <>
-     <h1 className='text-red-400 font-bold' >start react </h1>
-    </>
-  )
-}
+  <>
+  <DevJob/>
+
+  </>
+  )}
 
 export default App
